@@ -1,0 +1,7 @@
+#!/bin/sh
+
+echo "BOOM!"
+
+echo "you're ready to rock!"
+
+echo "now read all the documentation and the 1500 page book"
