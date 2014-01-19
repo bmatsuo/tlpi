@@ -6,6 +6,8 @@ code from other languages like Go and Rust.
 ###Contents
 
 - `tlpi-dist` Fully annotated source code of The Linux Programming Interface.
+- `tlpi-go` Go implementations
+- `tlpi-rust` Rust implementations
 
 ###Setup
 
@@ -43,3 +45,4 @@ To run go examples, install go
     wget https://go.googlecode.com/files/go1.2.linux-amd64.tar.gz
     sudo tar -C /usr/local -xzf go1.2.linux-amd64.tar.gz
     rm go1.2.linux-amd64.tar.gz
+    export PATH="/usr/local/go/bin:$PATH"
