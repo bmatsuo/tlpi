@@ -16,6 +16,9 @@ clean :
 syscall_speed : syscall_speed.o
 	${CC} -o $@ syscall_speed.o ${CFLAGS} ${LDLIBS}
 
+nosyscall :
+	${CC} -o $@ syscall_speed.o ${CFLAGS} ${LDLIBS} -DNOSYSCALL
+
 showall :
 	@ echo ${EXE}
 
