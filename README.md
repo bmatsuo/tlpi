@@ -37,3 +37,9 @@ the repository, and build things...
 	git clone git@github.com:bmatsuo/tpli.git
 	cd tpli
 	./boom
+
+To run go examples, install go
+
+    wget https://go.googlecode.com/files/go1.2.linux-amd64.tar.gz
+    sudo tar -C /usr/local -xzf go1.2.linux-amd64.tar.gz
+    rm go1.2.linux-amd64.tar.gz
